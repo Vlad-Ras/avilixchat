@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d445d87-5db8-4ea7-af13-d0800ae7f2f8" name="Changes" comment="bug fixes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvilixChat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vlad-Ras&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vlad-Ras/AvilixChat.git&quot;,
+    &quot;accountId&quot;: &quot;d95de7b1-5a81-4ce8-a819-cfaa945ca598&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="371wjI37R0mBq40wo9Qc5sYR955" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AvilixChat [:net.neoforged.devlaunch.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvilixChat [jar].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Mods/AvilixChat/run/mods&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mods\AvilixChat\run\mods" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="AvilixChat.main" />
+      <option name="PROGRAM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=avilixchat%%E:\\Mods\\AvilixChat\\build\\classes\\java\\main;avilixchat%%E:\\Mods\\AvilixChat\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="AvilixChat.main" />
+      <option name="PROGRAM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\dataRunVmArgs.txt -Dfml.modFolders=avilixchat%%E:\\Mods\\AvilixChat\\build\\classes\\java\\main;avilixchat%%E:\\Mods\\AvilixChat\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTestServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="AvilixChat.main" />
+      <option name="PROGRAM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\gameTestServerRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\gameTestServerRunVmArgs.txt -Dfml.modFolders=avilixchat%%E:\\Mods\\AvilixChat\\build\\classes\\java\\main;avilixchat%%E:\\Mods\\AvilixChat\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="AvilixChat.main" />
+      <option name="PROGRAM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@E:\\Mods\\AvilixChat\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=avilixchat%%E:\\Mods\\AvilixChat\\build\\classes\\java\\main;avilixchat%%E:\\Mods\\AvilixChat\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvilixChat [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Data" />
+      <item itemvalue="Application.GameTestServer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Gradle.AvilixChat [jar]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AvilixChat [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d445d87-5db8-4ea7-af13-d0800ae7f2f8" name="Changes" comment="" />
+      <created>1766084019272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766084019272</updated>
+      <workItem from="1766084020860" duration="11492000" />
+      <workItem from="1766130407286" duration="1363000" />
+      <workItem from="1766139288625" duration="253000" />
+      <workItem from="1766140365519" duration="160000" />
+      <workItem from="1766141071026" duration="139000" />
+      <workItem from="1766142438567" duration="279000" />
+      <workItem from="1766147103932" duration="2736000" />
+      <workItem from="1766338440103" duration="194000" />
+      <workItem from="1766338998502" duration="549000" />
+      <workItem from="1766353883409" duration="1655000" />
+      <workItem from="1766356479158" duration="252000" />
+      <workItem from="1766359463998" duration="442000" />
+      <workItem from="1766408139888" duration="486000" />
+      <workItem from="1766411588669" duration="67000" />
+      <workItem from="1766411696509" duration="58000" />
+      <workItem from="1766412380637" duration="89000" />
+      <workItem from="1766412489281" duration="446000" />
+      <workItem from="1766484527537" duration="719000" />
+      <workItem from="1766511770891" duration="541000" />
+      <workItem from="1766534560262" duration="148000" />
+      <workItem from="1766614794178" duration="139000" />
+      <workItem from="1766618978739" duration="257000" />
+      <workItem from="1766619258955" duration="159000" />
+      <workItem from="1766649243984" duration="345000" />
+    </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1766484596391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766484596391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FIX AND UPDATE ALL">
+      <option name="closed" value="true" />
+      <created>1766619033045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766619033045</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.3.25">
+      <option name="closed" value="true" />
+      <created>1767974538167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767974538167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1767989837211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767989837211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1768302357451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768302357451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:net.kyori:adventure-api" />
+    <option featureType="dependencySupport" implementationName="java:org.spongepowered:mixin" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="123" />
+    <MESSAGE value="FIX AND UPDATE ALL" />
+    <MESSAGE value="1.3.25" />
+    <MESSAGE value="bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes" />
+  </component>
+</project>

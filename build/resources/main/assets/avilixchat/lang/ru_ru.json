@@ -1,0 +1,12 @@
+{
+  "avilixchat.tab.global": "Глобальный",
+  "avilixchat.tab.local": "Локальный",
+  "avilixchat.tab.trade": "Торговый",
+  "avilixchat.tab.clan": "Клановый",
+  "avilixchat.tab.admin": "Админский",
+
+  "avilixchat.no_recipients": "В этом канале нет получателей."
+
+  ,"key.categories.avilixchat": "AvilixChat"
+  ,"key.avilixchat.cycle_channel": "Переключить чат по кругу"
+}

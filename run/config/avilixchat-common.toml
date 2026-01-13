@@ -1,0 +1,101 @@
+#Radius (in blocks) for local chat.
+# Default: 100
+# Range: 1 ~ 1024
+localRadiusBlocks = 100
+#If true, system messages (advancements, game info, etc.) are shown in every tab.
+showSystemInAllTabs = true
+#How to parse LuckPerms prefixes: AUTO, LEGACY, MINIMESSAGE, PLAIN
+luckPermsPrefixFormat = "AUTO"
+#If true, player death messages are only shown in LOCAL chat within deathRadiusBlocks.
+deathMessagesLocalOnly = true
+#Radius (in blocks) for death messages when deathMessagesLocalOnly=true.
+# Default: 100
+# Range: 1 ~ 1024
+deathRadiusBlocks = 100
+#If true, log player death messages into a dedicated MariaDB/MySQL table.
+deathLogEnabled = true
+#Table name for death logs.
+deathLogTable = "death_logs"
+#If true, the mod will CREATE TABLE IF NOT EXISTS for death logs on server start.
+deathLogAutoCreateTable = true
+#If true, log all player chat messages routed by MultiChat into a MariaDB/MySQL database.
+chatLogEnabled = true
+#If true, also log system/mod messages that are broadcast/sent via server system chat.
+chatLogIncludeSystemMessages = true
+#JDBC URL for MariaDB/MySQL. Example:
+#  jdbc:mysql://127.0.0.1:3306/avilix?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+#For MySQL driver you can use jdbc:mysql://... as well.
+chatLogJdbcUrl = "jdbc:mysql://127.0.0.1:3306/avilix?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC"
+#Database username for chat logging.
+chatLogDbUser = "economy"
+#Database password for chat logging.
+chatLogDbPassword = ""
+#Table name for chat logs.
+chatLogTable = "chat_logs"
+#If true, the mod will CREATE TABLE IF NOT EXISTS on server start.
+chatLogAutoCreateTable = true
+#If true, enable mutes and persist them in the database.
+mutesEnabled = true
+#Fallback vanilla permission level required for moderation commands when LuckPerms is not present.
+# Default: 2
+# Range: 0 ~ 4
+muteRequiredPermissionLevel = 2
+#Table name for stored mutes.
+mutesTable = "chat_mutes"
+#Table name for moderation actions log (mute/unmute/etc).
+modlogTable = "chat_moderation_log"
+#If true, CREATE TABLE IF NOT EXISTS for mutes/modlog on server start.
+mutesAutoCreateTable = true
+
+[ui]
+	#Key used to choose chat at the beginning of message. Example: '$l hello', '$t sell'.
+	#Default is '$' to avoid conflicts with HEX colors (#RRGGBB).
+	chatSwitchKey = "$"
+
+	[ui.tabs]
+		#Tab label for GLOBAL chat (1-3 chars).
+		global = "G"
+		#Tab label for LOCAL chat (1-3 chars).
+		local = "L"
+		#Tab label for TRADE chat (1-3 chars).
+		trade = "T"
+		#Tab label for CLAN chat (1-3 chars).
+		clan = "C"
+		#Tab label for ADMIN chat (1-3 chars).
+		admin = "A"
+
+	[ui.colors]
+		#Tab accent color for GLOBAL in '#RRGGBB'.
+		global = "#AAAAAA"
+		#Tab accent color for LOCAL in '#RRGGBB'.
+		local = "#55FF55"
+		#Tab accent color for TRADE in '#RRGGBB'.
+		trade = "#FFAA00"
+		#Tab accent color for CLAN in '#RRGGBB'.
+		clan = "#55FFFF"
+		#Tab accent color for ADMIN in '#RRGGBB'.
+		admin = "#FF5555"
+
+	[ui.textColors]
+		#Default message text color for GLOBAL when player text has no color, in '#RRGGBB'.
+		global = "#FFFFFF"
+		#Default message text color for LOCAL when player text has no color, in '#RRGGBB'.
+		local = "#FFFFFF"
+		#Default message text color for TRADE when player text has no color, in '#RRGGBB'.
+		trade = "#FFFFFF"
+		#Default message text color for CLAN when player text has no color, in '#RRGGBB'.
+		clan = "#FFFFFF"
+		#Default message text color for ADMIN when player text has no color, in '#RRGGBB'.
+		admin = "#FFFFFF"
+
+	[admin.areaHistory]
+		#Сколько сообщений хранить в памяти для истории по радиусу (используется /areahistory и /spy area history).
+		#Range: 100 ~ 20000
+		# Default: 2000
+		# Range: 100 ~ 20000
+		maxMessages = 2000
+		#Сколько минут истории показывать по умолчанию, если не указано в команде.
+		#Range: 1 ~ 120
+		# Default: 10
+		# Range: 1 ~ 120
+		defaultMinutes = 10

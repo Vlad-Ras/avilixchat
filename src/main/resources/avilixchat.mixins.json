@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.roften.multichat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerListMixin",
+    "CommandsMixin",
+    "ServerPlayerMixin",
+    "ServerPlayerDeathMixin"
+  ],
+  "client": [
+    "ChatScreenMixin",
+    "ChatComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

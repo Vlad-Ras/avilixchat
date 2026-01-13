@@ -1,0 +1,12 @@
+{
+  "avilixchat.tab.global": "Global",
+  "avilixchat.tab.local": "Local",
+  "avilixchat.tab.trade": "Trade",
+  "avilixchat.tab.clan": "Clan",
+  "avilixchat.tab.admin": "Admin",
+
+  "avilixchat.no_recipients": "No recipients for this channel."
+
+  ,"key.categories.avilixchat": "AvilixChat"
+  ,"key.avilixchat.cycle_channel": "Cycle chat channel"
+}

@@ -1,0 +1,36 @@
+#Radius (in blocks) for local chat.
+# Default: 100
+# Range: 1 ~ 1024
+localRadiusBlocks = 100
+#If true, system messages (advancements, game info, etc.) are shown in every tab.
+showSystemInAllTabs = true
+#How to parse LuckPerms prefixes: AUTO, LEGACY, MINIMESSAGE, PLAIN
+luckPermsPrefixFormat = "AUTO"
+#If true, log all player chat messages routed by MultiChat into a MariaDB/MySQL database.
+chatLogEnabled = true
+#If true, also log system/mod messages that are broadcast/sent via server system chat.
+chatLogIncludeSystemMessages = true
+#JDBC URL for MariaDB/MySQL. Example:
+#  jdbc:mysql://127.0.0.1:3306/avilix?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+#For MySQL driver you can use jdbc:mysql://... as well.
+chatLogJdbcUrl = "jdbc:mysql://127.0.0.1:3306/avilix?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC"
+#Database username for chat logging.
+chatLogDbUser = "economy"
+#Database password for chat logging.
+chatLogDbPassword = ""
+#Table name for chat logs.
+chatLogTable = "chat_logs"
+#If true, the mod will CREATE TABLE IF NOT EXISTS on server start.
+chatLogAutoCreateTable = true
+#If true, enable mutes and persist them in the database.
+mutesEnabled = true
+#Fallback vanilla permission level required for moderation commands when LuckPerms is not present.
+# Default: 2
+# Range: 0 ~ 4
+muteRequiredPermissionLevel = 2
+#Table name for stored mutes.
+mutesTable = "chat_mutes"
+#Table name for moderation actions log (mute/unmute/etc).
+modlogTable = "chat_moderation_log"
+#If true, CREATE TABLE IF NOT EXISTS for mutes/modlog on server start.
+mutesAutoCreateTable = true
