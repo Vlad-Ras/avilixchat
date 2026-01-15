@@ -169,9 +169,6 @@ public abstract class ServerPlayerMixin {
 
         if (!MultiChatConfig.CHATLOG_INCLUDE_SYSTEM_MESSAGES.getAsBoolean()) return;
 
-        BlockPos pos = self.blockPosition();
-        String dim = self.level().dimension().location().toString();
 
-        ChatLogDatabase.logSystem(server, text, dim, pos.getX(), pos.getY(), pos.getZ());
     }
 }

@@ -94,17 +94,6 @@ public abstract class PlayerListMixin {
 				final boolean overlayFinal = overlay;
 				final var serverFinal = server;
 
-                // Log once per broadcast (not once per recipient).
-                if (!ChatLogDatabase.isMixinSystemLoggingSuppressed()
-                        && MultiChatConfig.CHATLOG_INCLUDE_SYSTEM_MESSAGES.getAsBoolean()) {
-                    try {
-                        String text = message.getString();
-                        if (text != null && !text.isBlank()) {
-                            ChatLogDatabase.logSystem(server, text, "server", 0, 0, 0);
-                        }
-                    } catch (Throwable ignored) {
-                    }
-                }
 
                 // Re-send a single tagged copy to channel recipients and cancel the original broadcast.
                 // Suppress mixin system logging because we already log the broadcast once here.
@@ -124,15 +113,7 @@ public abstract class PlayerListMixin {
             }
         }
 
-        // Log once per broadcast (not once per recipient).
-        if (!ChatLogDatabase.isMixinSystemLoggingSuppressed()
-                && MultiChatConfig.CHATLOG_INCLUDE_SYSTEM_MESSAGES.getAsBoolean()
-                && message != null) {
-            String text = message.getString();
-            if (text != null && !text.isBlank()) {
-                ChatLogDatabase.logSystem(server, text, "server", 0, 0, 0);
-            }
-        }
+
     }
 
     private static boolean isRecentXaeroBroadcastDuplicate(Component message) {
